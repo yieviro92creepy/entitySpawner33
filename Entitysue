@@ -75,3 +75,8 @@ Section:NewButton("A-90 (from the rooms)", "spawn A-90",function()
 local a = require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules["A90"])(require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game))()         
 
 end)
+Section:NewButton("A60 (doesnt work for Crucifix", "K", function()
+
+    loadstring(game:HttpGet("https://pastefy.ga/NBKvr1hr/raw"))()  
+
+end)
