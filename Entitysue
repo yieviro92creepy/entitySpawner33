@@ -1,0 +1,77 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("Entity Spawner - V1.7 HUB MADE BY YIEVIRO92TEST", "Synapse")
+
+local Tab = Window:NewTab("Entity Spawner")
+
+local Section = Tab:NewSection("lol")
+
+Section:NewButton("rush", "kik", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yieviro92creepy/testspawner/main/Trsiii"))()  
+
+end)
+
+Section:NewButton("glitch", "?", function()
+
+    require(game.ReplicatedStorage.ClientModules.EntityModules.Glitch).stuff(require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game),
+
+workspace.CurrentRooms[game.Players.LocalPlayer:GetAttribute("CurrentRoom")])
+
+end)
+
+Section:NewButton("Halt", "?", function()
+
+    require(game.ReplicatedStorage.ClientModules.EntityModules.Shade).stuff(require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game),
+
+workspace.CurrentRooms[game.Players.LocalPlayer:GetAttribute("CurrentRoom")])
+
+end)
+
+Section:NewButton("seek", "Spawns Seek", function()
+
+    local EntitySpawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/dreadmania/Scripts/main/Spawner_V2.lua"))()
+
+local Configuration = {
+
+    Kill = false, -- change to "Damage = 10," for eyes, doesnt work on other entities
+
+    Speed = 160, -- 60 for rush, doesnt work on other entities
+
+    Time = 3 -- 5 for rush, doesnt work on other entities
+
+}
+
+EntitySpawner:Spawn("Seek", Configuration)
+
+end)
+
+Section:NewButton("Ambush", "SpAan Ambush", function()
+
+    local EntitySpawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/dreadmania/Scripts/main/Spawner_V2.lua"))()
+
+local Configuration = {
+
+    Kill = false, -- change to "Damage = 10," for eyes, doesnt work on other entities
+
+    Speed = 160, -- 60 for rush, doesnt work on other entities
+
+    Time = 3 -- 5 for rush, doesnt work on other entities
+
+}
+
+EntitySpawner:Spawn("Ambush", Configuration)
+
+end)
+
+Section:NewButton("A120", "Kid", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yieviro92creepy/testA120/main/120"))()  
+
+end)
+
+Section:NewButton("A-90 (from the rooms)", "spawn A-90",function()
+
+local a = require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules["A90"])(require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game))()         
+
+end)
